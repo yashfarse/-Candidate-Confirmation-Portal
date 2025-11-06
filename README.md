@@ -65,7 +65,15 @@ The backend should run on **http://localhost:5000**.
 
 ---
 ## Images
-<img width="1898" height="892" alt="A8" src="https://github.com/user-attachments/assets/b493eef1-ef1e-4b40-9722-63adc0826486" />
+<img width="1898" height="892" alt="A8" src="https://github.com/user-attachments/assets/87a1d6a5-0d2f-4d39-8807-fb60467e9c9e" />
+<img width="1895" height="893" alt="A7" src="https://github.com/user-attachments/assets/ab49b226-f80c-454f-bf3e-f8de98289668" />
+<img width="1902" height="875" alt="A6" src="https://github.com/user-attachments/assets/7389b2de-fd12-4823-84df-08f7e13c251a" />
+<img width="1857" height="833" alt="A5" src="https://github.com/user-attachments/assets/034a0e07-16d6-403a-8fc0-761784ab4067" />
+<img width="1900" height="888" alt="A4" src="https://github.com/user-attachments/assets/180afbe8-07ee-447d-bb77-801cf218ebc8" />
+<img width="1790" height="900" alt="A3" src="https://github.com/user-attachments/assets/8f0308b9-c1e8-4a97-a475-3f0e98aecd6a" />
+<img width="1911" height="896" alt="A2" src="https://github.com/user-attachments/assets/6c841b34-c7bb-4b88-82e2-9c1cd2fe9572" />
+<img width="1915" height="902" alt="A1" src="https://github.com/user-attachments/assets/d4433fff-29d4-444f-95a2-c6ac93a509b5" />
+
 
 
 
