@@ -1,0 +1,153 @@
+/* ===== Corporate Blue Theme (with Professional Background) ===== */
+
+:root {
+  --primary: #0d6efd;
+  --primary-dark: #004080;
+  --secondary: #004080;
+  --background: #f8f9fa;
+  --text-color: #212529;
+  --muted: #6c757d;
+}
+
+/* Global Base Styles */
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--background);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Apply Now Button */
+.apply-now-btn {
+  background-color: #ffffff !important;
+  color: var(--primary-dark) !important;
+  border: 1px solid #ffffff !important;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+.apply-now-btn:hover {
+  background-color: var(--primary-dark) !important;
+  color: #ffffff !important;
+  border-color: var(--primary-dark) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+/* Landing Page Layout */
+.landing-page {
+  background: var(--background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.landing-header {
+  background-color: var(--primary);
+  color: #fff;
+}
+.landing-header .brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Hero Section with Background Image */
+.landing-hero {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  background-image: url('../assets/background-office.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* Overlay for better text contrast */
+.landing-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 32, 91, 0.65);
+  z-index: 0;
+}
+.landing-hero > .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Call-to-action Button */
+.btn-cta {
+  background-color: #ffffff;
+  color: var(--primary-dark);
+  border: none;
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+.btn-cta:hover {
+  background-color: var(--primary-dark);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* Step Cards */
+.steps .step-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.step-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+.step-card h5 {
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+.step-card p {
+  color: #333;
+}
+
+/* Footer */
+.landing-footer {
+  background-color: #e9ecef;
+  color: var(--muted);
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+/* Candidate Form Styling */
+.candidate-form-card {
+  background-color: #ffffff;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+.candidate-form-card:hover {
+  box-shadow: 0 6px 20px rgba(13, 110, 253, 0.15);
+  transform: translateY(-2px);
+}
+.candidate-form-card h2 {
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.5rem;
+}

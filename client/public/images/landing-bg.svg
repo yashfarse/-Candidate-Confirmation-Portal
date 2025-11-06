@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#17203a"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" />
+
+  <!-- soft shapes -->
+  <g opacity="0.12" filter="url(#blur)">
+    <circle cx="300" cy="200" r="260" fill="#6c63ff" />
+    <circle cx="1200" cy="700" r="300" fill="#00d4ff" />
+    <ellipse cx="900" cy="320" rx="420" ry="200" fill="#6c63ff" />
+  </g>
+
+  <!-- subtle grid -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <path d="M0 0 L1600 0 L1600 900 L0 900 Z" />
+  </g>
+</svg>
