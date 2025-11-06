@@ -81,5 +81,5 @@ The backend should run on **http://localhost:5000**.
 
 **Developed by:** Yash Farse  
 **Role:** Full Stack Developer  
-**Email:** yashfarse@example.com  
+**Email:** yashfarse@gmail.com  
 ---
